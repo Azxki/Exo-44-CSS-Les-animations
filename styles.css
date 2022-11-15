@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(90deg);
+    transform: scale(20%);
+}
+
+@keyframes color {
+    from {
+        background-color: red;
+        font-size: 3rem;
+        font-family: Arial, sans-serif;
+    }
+
+    to {
+        background-color: blue;
+        font-size: 5.3rem;
+        font-family: fantasy;
+    }
+}
